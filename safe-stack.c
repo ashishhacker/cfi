@@ -45,7 +45,7 @@ int main(int argc, char **argv) {
 
 		printf("[*] print str:\n");
 		fgets(buf, sizeof(buf), stdin);
-		printf(buf);
+		printf("%s\n", buf);
 	}
 
 	printf("[+] Returning from main...\n");
